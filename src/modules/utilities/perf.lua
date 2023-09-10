@@ -1,0 +1,24 @@
+local resolution = workspace.CurrentCamera.ViewportSize
+local Text = Drawing.new("Text")
+Text.Visible = true
+Text.Transparency = 1
+Text.Color = Color3.fromRGB(255,255,255)
+Text.Text = "mintui"
+Text.Size = 18
+Text.Center = false
+Text.Outline = true
+Text.OutlineColor = Color3.fromRGB(0,0,0)
+Text.Position = Vector2.new(10,resolution.Y/2)
+Text.Font = Drawing.Fonts.System
+
+local Text1 = Drawing.new("Text")
+Text1.Visible = true
+Text1.Transparency = 1
+Text1.Color = Color3.fromRGB(255,255,255)
+Text1.Text = "| perf"
+Text1.Size = 18
+Text1.Center = false
+Text1.Outline = true
+Text1.OutlineColor = Color3.fromRGB(0,0,0)
+Text1.Position = Vector2.new(10+52,resolution.Y/2)
+Text1.Font = Drawing.Fonts.System
